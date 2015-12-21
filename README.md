@@ -1,6 +1,10 @@
 # Discord-iM@S-Theme
 iM@S Themes for Discord.
 
+## Currently Available Themes
+
+- Yayoi
+
 ## How To Use
 
 ### Using Console
