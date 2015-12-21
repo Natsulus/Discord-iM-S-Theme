@@ -13,6 +13,7 @@ If you don't know how to get to console:
 
 1. Ctrl + Shift + I in Discord
 2. Open Console
+
 #### Install iM@S Theme
 ```javascript
 iMASCSS = document.createElement("link");
