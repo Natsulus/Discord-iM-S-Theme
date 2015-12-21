@@ -32,8 +32,8 @@ document.getElementById("iMASCSS").setAttribute("href", "");
 ```
 #### Uninstall iM@S Theme
 ```javascript
-delete iMASCSS;
 document.getElementsByTagName("head").item(0).removeChild(iMASCSS);
+delete iMASCSS;
 ```
 ### Using BetterDiscordApp
 TBA
