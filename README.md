@@ -8,28 +8,28 @@ If you don't know how to get to console:
 1. Ctrl + Shift + I in Discord
 2. Open Console
 
-#### Installing
-Enter the following:
+#### Install iM@S Theme
 ```javascript
-var customCSSl = document.createElement("link");
-customCSSl.setAttribute("rel", "stylesheet");
-customCSSl.setAttribute("type", "text/css");
-//Replace NAME below with character's name, e.g. Yayoi
-customCSSl.setAttribute("href", "https://Natsulus.github.io/Discord-iM-S-Theme/NAME%20Theme.css");
-document.getElementsByTagName("head").item(0).appendChild(customCSSl);
+iMASCSS = document.createElement("link");
+iMASCSS.setAttribute("id", "iMASCSS");
+iMASCSS.setAttribute("rel", "stylesheet");
+iMASCSS.setAttribute("type", "text/css");
+document.getElementsByTagName("head").item(0).appendChild(iMASCSS);
 ```
-#### Changing Themes
-Enter the following:
+#### Select/Change Themes
 ```javascript
-document.getElementsByTagName("head").item(0).removeChild(customCSSl);
-//Replace NAME below with character's name, e.g. Yayoi
-customCSSl.setAttribute("href", "https://Natsulus.github.io/Discord-iM-S-Theme/NAME%20Theme.css");
-document.getElementsByTagName("head").item(0).appendChild(customCSSl);
+// Replace NAME below with character's name, e.g. Yayoi
+document.getElementById("iMASCSS").setAttribute("href", "https://Natsulus.github.io/Discord-iM-S-Theme/NAME%20Theme.css");
 ```
-#### Uninstalling
-Enter the following:
+#### Remove Theme
 ```javascript
-document.getElementsByTagName("head").item(0).removeChild(customCSSl);
+document.getElementById("iMASCSS").setAttribute("href", "");
 ```
+#### Uninstall iM@S Theme
+```javascript
+delete iMASCSS;
+document.getElementsByTagName("head").item(0).removeChild(iMASCSS);
+```
+Enter the following:
 ### Using BetterDiscordApp
 TBA
