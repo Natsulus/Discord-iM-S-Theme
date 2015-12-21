@@ -5,6 +5,7 @@ iM@S Themes for Discord.
 
 ### Using Console
 If you don't know how to get to console:
+
 1. Ctrl + Shift + I in Discord
 2. Open Console
 
@@ -30,6 +31,5 @@ document.getElementById("iMASCSS").setAttribute("href", "");
 delete iMASCSS;
 document.getElementsByTagName("head").item(0).removeChild(iMASCSS);
 ```
-Enter the following:
 ### Using BetterDiscordApp
 TBA
