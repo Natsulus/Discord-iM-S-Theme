@@ -1,0 +1,278 @@
+/*META{"name":"Cupid Yayoi","description":"A theme featuring Takatsuki Yayoi!","author":"Natsulus","version":"1.0"}*/
+div.app.flex-vertical > div.flex-vertical.flex-spacer > section.flex-horizontal.flex-spacer {
+    background: linear-gradient(rgba(255, 141, 0, 0.5), rgba(255, 192, 0, 0.5)), url("https://i.imgur.com/qUOseWq.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0, 0, 0, 1) !important;
+    box-shadow: inset 0 0 20px white !important;
+  }
+
+.guilds-wrapper {
+    background: none;
+}
+
+.guild-header {
+    background: none !important;
+}
+
+.guild-header header {
+    background: rgba(255, 176, 65, 1) !important;
+    border-left: 1px solid rgba(212, 117, 0, 0.85);
+    border-right: 1px solid rgba(212, 117, 0, 0.85);
+    border-bottom: 1px solid rgba(212, 117, 0, 0.85);
+    box-shadow: inset 0 20px 20px -20px white !important;
+}
+
+.guild-header ul {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.guild-header ul a {
+    background: rgba(255, 176, 65, 1) !important;
+    opacity: 1;
+}
+
+.guild-header-open ul {
+    border: 1px solid rgba(212, 117, 0, 0.85);
+    border-bottom: top !important;
+}
+
+.guild-channels ul .channel-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.guild-channels ul .channel-text:hover {
+    background: rgba(255, 141, 0, 0.4) !important;
+    border-radius: 0px 30px 30px 0px;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.guild-channels ul .channel-text:hover:not(.unread):before {
+  border-left: 4px solid green !important;
+  opacity: 0.25 !important;
+}
+
+.guild-channels ul .channel-text.selected {
+    background-color: rgba(255, 141, 0, 0.5) !important;
+    border-radius: 0px 30px 30px 0px;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.guild-channels ul .channel-text.selected:before {
+  border-left: 4px solid green !important;
+}
+
+.guild-channels ul .channel a {
+    opacity: 0.75;
+}
+
+.guild-channels ul .channel-text.channel-muted:not(.selected) a {
+    opacity: 0.45;
+}
+
+.title-wrap {
+    background: none !important;
+    border-bottom: 1px solid rgba(212, 117, 0, 0.85) !important;
+    box-shadow: none !important;
+}
+
+.content.flex-spacer.flex-horizontal {
+    background: none !important;
+}
+
+.scroller.guild-channels {
+    background: none !important;
+    border-left: 1px solid rgba(212, 117, 0, 0.85);
+    border-right: 1px solid rgba(212, 117, 0, 0.85);
+}
+
+.account {
+    background: none !important;
+    border-left: 1px solid rgba(212, 117, 0, 0.85);
+    border-right: 1px solid rgba(212, 117, 0, 0.85);
+    border-top: 1px solid rgba(212, 117, 0, 0.85);
+}
+
+.links {
+    background: none !important;
+    border-left: 1px solid rgba(212, 117, 0, 0.85);
+    border-right: 1px solid rgba(212, 117, 0, 0.85);
+    border-top: 1px solid rgba(212, 117, 0, 0.85);
+}
+
+.help-container {
+    background: none !important;
+    border-top: 1px solid rgba(212, 117, 0, 0.85);
+}
+
+.help-container:after {
+    background: none !important;
+}
+
+.selected {
+    background: transparent !important;
+}
+
+.channel-members {
+    background: none !important;
+    border-left: 1px solid rgba(212, 117, 0, 0.85);
+    border-right: 1px solid rgba(212, 117, 0, 0.85);
+}
+
+.user-name {
+    background-color: rgba(255, 165, 63, 0.75) !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid rgba(255, 141, 0, 0.5);
+    border-radius: 15px;
+}
+
+.account .btn-group {
+    border: none !important;
+}
+
+.account .btn {
+    background: transparent !important;
+}
+
+.btn-settings, .btn-mute {
+    border: 1px solid rgba(212, 117, 0, 0.85) !important;
+}
+
+.btn-deafen {
+    border-top: 1px solid rgba(212, 117, 0, 0.85);
+    border-bottom: 1px solid rgba(212, 117, 0, 0.85);
+    border-right: none !important;
+}
+
+.btn-deafen, .btn-mute, .btn-settings {
+    box-shadow: none !important;
+}
+
+.typing {
+    background: none !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border: 1px solid rgba(212, 117, 0, 0.85) !important;
+    border-right: none !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    border-color: transparent !important;
+    background: rgba(255, 141, 0, 1) !important;
+    border: 1px solid rgba(255, 125, 0, 1) !important;
+    border-right: none !important;
+}
+
+.theme-dark .chat .title-wrap .topic .topic-full {
+    background-color: none !important;
+    border-bottom: none !important;
+}
+
+.channel-voice-states li {
+    color: rgba(190, 90, 0, 0.45) !important;
+}
+
+.channel-voice-states li:hover {
+    color: rgba(190, 90, 0, 1) !important;
+}
+
+.chat-empty {
+    background: none !important;
+}
+
+.private-channels {
+    background: none !important;
+    border-left: 1px solid rgba(212, 117, 0, 0.85);
+    border-right: 1px solid rgba(212, 117, 0, 0.85);
+}
+
+.private-channels .channel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.private-channels .channel:hover {
+    background: rgba(255, 141, 0, 0.4) !important;
+    border-radius: 0px 40px 40px 0px;
+    width: 83%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.private-channels .channel:hover:not(.unread):before {
+  border-left: 4px solid green !important;
+  opacity: 0.25 !important;
+}
+
+.private-channels .channel.selected {
+    background: rgba(255, 141, 0, 0.5) !important;
+    border-radius: 0px 40px 40px 0px;
+    width: 83%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.private-channels .channel.selected:before {
+  border-left: 4px solid green !important;
+}
+
+.channel-members h2 {
+    padding: 0 8px;
+}
+
+
+.channel-members .member {
+  float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 83% !important;
+    padding-right: 0% !important;
+}
+
+.channel-members .member:hover {
+    background: rgba(255, 141, 0, 0.4) !important;
+    border-radius: 40px 0px 0px 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.channel-members .member.popout-open {
+    background: rgba(255, 141, 0, 0.5) !important;
+    border-radius: 40px 0px 0px 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Minimal Mode*/
+/*.comment {
+  border-left: 1px solid rgba(212, 117, 0, 0.65) !important;
+}*/
+
+li.unread .guild-inner:before {
+  background: red !important;
+}
+
+.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
+  background: red !important;
+}
+
+.chat .title-wrap .topic .topic-full {
+  background: none !important;
+}
+
+.chat .new-messages-bar {
+  background-color: rgba(255, 141, 0, 0.9) !important;
+}
+
+.theme-dark .chat>.content .messages .message-group .comment .markup {
+    color: #ea0000 !important;
+}
