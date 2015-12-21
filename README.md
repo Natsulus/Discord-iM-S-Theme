@@ -24,7 +24,7 @@ document.getElementsByTagName("head").item(0).appendChild(iMASCSS);
 #### Select/Change Themes
 ```javascript
 // Replace NAME below with character's name, e.g. Yayoi
-document.getElementById("iMASCSS").setAttribute("href", "https://Natsulus.github.io/Discord-iM-S-Theme/NAME%20Theme.css");
+document.getElementById("iMASCSS").setAttribute("href", "https://Natsulus.github.io/Discord-iMAS-Theme/NAME%20Theme.css");
 ```
 #### Remove Theme
 ```javascript
