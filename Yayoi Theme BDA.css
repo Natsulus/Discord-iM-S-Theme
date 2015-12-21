@@ -1,3 +1,5 @@
+//META{"name":"Cupid Yayoi","description":"A theme featuring Takatsuki Yayoi!","author":"Natsulus","version":"1.0"}*//
+
 div.app.flex-vertical > div.flex-vertical.flex-spacer > section.flex-horizontal.flex-spacer {
     background: linear-gradient(rgba(255, 141, 0, 0.5), rgba(255, 192, 0, 0.5)), url("https://i.imgur.com/qUOseWq.jpg");
     background-size: 100% 100%;
