@@ -4,11 +4,12 @@ iM@S Themes for Discord.
 ## How To Use
 
 ### Using Console
-
-#### Installing
+If you don't know how to get to console:
 1. Ctrl + Shift + I in Discord
 2. Open Console
-3. Enter the following: <br>
+
+#### Installing
+Enter the following:
 ```javascript
 var customCSSl = document.createElement("link");
 customCSSl.setAttribute("rel", "stylesheet");
@@ -18,7 +19,7 @@ customCSSl.setAttribute("href", "https://Natsulus.github.io/Discord-iM-S-Theme/N
 document.getElementsByTagName("head").item(0).appendChild(customCSSl);
 ```
 #### Changing Themes
-1. Use the following:
+Enter the following:
 ```javascript
 document.getElementsByTagName("head").item(0).removeChild(customCSSl);
 //Replace NAME below with character's name, e.g. Yayoi
@@ -26,7 +27,7 @@ customCSSl.setAttribute("href", "https://Natsulus.github.io/Discord-iM-S-Theme/N
 document.getElementsByTagName("head").item(0).appendChild(customCSSl);
 ```
 #### Uninstalling
-1. The following will remove the theme:
+Enter the following:
 ```javascript
 document.getElementsByTagName("head").item(0).removeChild(customCSSl);
 ```
